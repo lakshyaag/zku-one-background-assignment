@@ -1,0 +1,29 @@
+{
+  "name": "zkuone-background-assignment",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "hardhat-gas-reporter": "^1.0.8",
+    "web3": "^1.7.0"
+  },
+  "description": "This is the background assignment for the zkuONE for the application.",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Lakshya Agarwal <lakshyajannu@gmail.com>",
+  "license": "ISC"
+}
